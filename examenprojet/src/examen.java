@@ -32,6 +32,16 @@ public class examen {
                }
                 break;
             case 3:
+                int contador=0;
+                System.out.println("dame una frase");
+                frase=sc.nextLine();
+                char letra=sc.next().charAt(0);
+                for (int i=0;i<frase.length;i++){
+                    if (frase.charAt(i)=letra){
+                         contador++;
+                         System.out.println(contador);
+                    }
+                }
                 break;
             case 4:
                 System.out.println("estamos saliendo de la programa");
