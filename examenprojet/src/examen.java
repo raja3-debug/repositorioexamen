@@ -23,6 +23,13 @@ public class examen {
 
                 break;
             case 2:
+               string oracion;
+               System.out.println("Dame una frase");
+               oracion=sc.nextLine();
+
+               for (int i=0;i< oracion.length;i++){
+                System.out.println(orcion.length.charAt(i));
+               }
                 break;
             case 3:
                 break;
