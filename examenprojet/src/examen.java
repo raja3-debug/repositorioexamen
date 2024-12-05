@@ -17,6 +17,9 @@ public class examen {
             case 2:
                 break;
             case 3:
+                System.out.println("dame una frase");
+                frase=sc.nextLine();
+                char letra=sc.next().charAt(0);
                 break;
             case 4:
                 break;
