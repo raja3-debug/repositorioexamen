@@ -18,6 +18,7 @@ public class examen {
                palabra1 =sc.nextLine();
                 System.out.println("Escribe la segunda palabra");
                 palabra2 =sc.nextLine();
+                fraseconcatenada=palbra1+ " " +palabra2;
 
 
                 break;
